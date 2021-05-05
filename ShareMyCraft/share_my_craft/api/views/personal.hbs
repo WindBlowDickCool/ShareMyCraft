@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+ <head>
+ 	<meta charset="utf-8">
+    <title>personal profile</title>
+    <link rel="stylesheet" type="text/css" href="/src/personal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src='/src/share_my_craft.js'></script> -->
+    <script defer type="text/javascript" src='/src/personal.js'></script>
+
+ </head>
+
+ <body>
+ 	{{> header}}
+ 	<img id="profilePicCircle">
+ 	<h2 id="profileName"></h2>
+ 	<div id="sidebar">
+ 		<ul>
+ 			<!-- <li><button id="addCraft" class="sidebarElm"> Add Craft</button> </li> -->
+ 			<li><button id="myTries" class="sidebarElm"> My Tries</button> </li>
+ 			<li><button id="myCrafts" class="sidebarElm">My Crafts</button></li> 			
+ 			<li><button id="myComments" class="sidebarElm">My Comments</button></li>
+ 			<li><button id="myLikes" class="sidebarElm">My Likes</button></li> 
+ 			<!-- <li><button id="mySettings" class="sidebarElm">My Settings</button></li> -->
+ 		</ul>
+ 	</div>
+  	<div id="banner"> 
+ 		<img id="bannerPic" >
+ 	</div>
+ 	<div id="board"></div>
+ </body>
+</html>

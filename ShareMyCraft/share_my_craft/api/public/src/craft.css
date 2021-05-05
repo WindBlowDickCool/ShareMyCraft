@@ -1,0 +1,135 @@
+body{
+	background-color: white;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+ 	text-decoration: none;
+}
+#header {
+	padding: 5px;
+	/*background-color:rgba(255, 255, 255, 1);*/
+	width: 100%;
+	background: #a3cfce;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#userDiv{
+	font-size:18px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	float: right;
+	margin-right: 14px;
+	margin-top:5px;
+}
+#signoutDiv{
+	font-size:18px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	float: right;
+	margin-right: 14px;
+	margin-top:5px;
+}
+#backHome{
+	font-size:18px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	margin-left: 10px;	
+	margin-top: 5px;
+}
+#logopic{
+	width: 500px;
+	height: auto;
+}
+#top-right{
+	position:fixed; 
+	right:20px; 
+	top:10px
+}
+
+#top-left{
+	position:fixed;
+	left:20px;
+	top:10px
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    cursor: pointer;
+}
+.logo{
+	width: 500px;
+	margin:40px auto;
+}
+
+.contentcontainer{
+	margin:30px auto;
+	width: 80%;
+}
+
+/*#userDiv{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+}
+
+#backHome{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+}*/
+
+.topbtn{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;	
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	font-size:120%;
+}

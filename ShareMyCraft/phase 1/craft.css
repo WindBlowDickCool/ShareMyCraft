@@ -1,0 +1,82 @@
+body{
+	background-image: linear-gradient(to bottom, #A5E7FB, white);
+}
+
+a {
+ 	text-decoration: none;
+}
+
+#top-right{
+	position:fixed; 
+	right:20px; 
+	top:10px
+}
+
+#top-left{
+	position:fixed;
+	left:20px;
+	top:10px
+}
+/*
+#bottom-right{
+	position:fixed;
+	right:30px;
+	bottom:30px
+}*/
+
+.logo{
+	width: 500px;
+	margin:40px auto;
+}
+
+.contentcontainer{
+	margin:30px auto;
+	width: 80%;
+}
+
+#userDiv{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+}
+
+#backHome{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+}
+
+.topbtn{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;	
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	font-size:120%;
+}
+#likes{}

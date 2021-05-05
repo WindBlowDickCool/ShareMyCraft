@@ -1,0 +1,88 @@
+body{
+	background-image: linear-gradient(to bottom, #A5E7FB, white);
+}
+a {
+ 	text-decoration: none;
+}
+#top-right{
+	position:fixed; 
+	right:20px; 
+	top:10px
+	
+}
+.bar{
+  margin:0 auto;
+  width: 500px;
+}
+.logo{
+	width: 500px;
+	margin:40px auto;
+}
+.searchbar:hover{
+  box-shadow: 2px 2px 6px 2px #a3cfce;
+}
+.searchbar:focus-within{
+  box-shadow: 1px 1px 8px 1px #a3cfce;
+  outline:none;
+}
+.searchbar{
+  height:41px;
+  border-radius:40px 0 0 40px;
+  border:1px solid #dcdcdc;
+  width:450px;
+  font-size:16px;
+  float: left;
+}
+.contentcontainer{
+	margin:30px auto;
+	width: 80%;
+}
+.content{
+	background-color: #a3cfce;
+	float: left;
+	margin: 20px 20px;
+	display: inline-block;
+	width: 30%;
+	border-radius: 30px;
+	border-bottom: solid;
+	text-align: center;
+}
+.content:hover{
+	box-shadow: 2px 2px 6px 2px #a3cfce;
+}
+.contentimage{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	width:100%;
+}
+#userDiv{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	text-align: center;
+	display: inline-block;
+	color: black;
+}
+.searchButton {
+  width: 40px;
+  height: 45px;
+  border: 1px solid #a3cfce;
+  background: #a3cfce;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.searchButton:hover{
+  color:gray;
+}
+.craftCard:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+  0 10px 10px rgba(0,0,0,0.22);
+}
